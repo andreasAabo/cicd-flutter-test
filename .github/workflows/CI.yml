@@ -1,4 +1,4 @@
-name: CI_run_flutter_application
+name: CIFlutter
 
 on:
   push:
