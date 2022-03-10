@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "958748606267",
+    "project_id": "cicd-flutter-test",
+    "storage_bucket": "cicd-flutter-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958748606267:android:a1d88faabbf3878d95011e",
+        "android_client_info": {
+          "package_name": "com.example.cicd_flutter_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958748606267-fitthfmm65iikdctq8vp3f2bf28a53g0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8rgPiZkkrZpN8tRNZW-jpQQclr7JwcTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958748606267-fitthfmm65iikdctq8vp3f2bf28a53g0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "958748606267-hjnfhv9dceurvvr0k2vbot7l6u8qvst4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cicd-flutter-test"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
