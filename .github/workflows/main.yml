@@ -1,4 +1,4 @@
-name: CI and CD
+name: CI
 on:
   push:
     branches:
@@ -15,7 +15,7 @@ jobs:
         java-version: '12.x'
     - uses: subosito/flutter-action@v1
       with:
-          channel: 'stable'
+          channel: 'beta'
    # Get flutter dependencies.
     - run: flutter pub get
     
@@ -36,11 +36,3 @@ jobs:
       with:
         name: apk-release
         path: build/app/outputs/bundle/release/app-release.apk
-
-    - name: Firebase App Distribution
-      uses: wzieba/Firebase-Distribution-Github-Action@v1
-      with:
-        appId: ${{secrets.FIREBASE_APP_ID}}
-        token: ${{secrets.FIREBASE_TOKEN}}
-        groups: testers
-        file: app/build/outputs/apk/release/app-release-unsigned.apk
